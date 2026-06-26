@@ -6,12 +6,12 @@ import numpy as np
 import pandas as pd
 
 # File di input generati nei passaggi precedenti
-NODES_INPUT = "polymarket_nodes_for_thesis.csv"
+NODES_INPUT = "data/polymarket_nodes_for_thesis.csv"
 # Matrice .npy degli embeddings generati con RoBERTa
-EMBEDDINGS_INPUT = "polymarket_embeddings.npy" 
+EMBEDDINGS_INPUT = "data/polymarket_embeddings.npy" 
 
 # File di output per gli archi
-EDGES_OUTPUT = "polymarket_edges_knn.csv"
+EDGES_OUTPUT = "data/polymarket_edges_knn.csv"
 
 # Iperparametri della topologia del grafo
 K_NEIGHBORS = 5

@@ -6,11 +6,11 @@ import networkx as nx
 import pandas as pd
 
 # File di input generati nei passaggi precedenti
-NODES_INPUT = "polymarket_nodes_for_thesis.csv"
-EDGES_INPUT = "polymarket_edges_knn.csv"
+NODES_INPUT = "data/polymarket_nodes_for_thesis.csv"
+EDGES_INPUT = "data/polymarket_edges_knn.csv"
 
 # File di output finale (Nodi + ID Cluster)
-NODES_OUTPUT = "polymarket_nodes_classified.csv"
+NODES_OUTPUT = "data/polymarket_nodes_classified.csv"
 
 
 def detect_communities() -> None:

@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 
-NODES_INPUT = "polymarket_nodes_for_thesis.csv"
-EMBEDDINGS_OUTPUT = "polymarket_embeddings.npy"
+NODES_INPUT = "data/polymarket_nodes_for_thesis.csv"
+EMBEDDINGS_OUTPUT = "data/polymarket_embeddings.npy"
 MODEL_NAME = "sentence-transformers/all-distilroberta-v1"
 
 

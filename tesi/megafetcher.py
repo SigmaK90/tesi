@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 
 GAMMA_EVENTS_URL = "https://gamma-api.polymarket.com/events"
-OUTPUT_FILE = "polymarket_nodes_for_thesis.csv"
+OUTPUT_FILE = "data/polymarket_nodes_for_thesis.csv"
 PAGE_LIMIT = 100
 TIMEOUT_SECONDS = 30
 
